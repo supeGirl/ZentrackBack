@@ -1,0 +1,38 @@
+[
+    {
+      "id": "shift_1",
+      "userId": "user_101",
+      "date": "2025-04-25",
+      "startShift": "08:00",
+      "endShift": "16:00"
+    },
+    {
+      "id": "shift_2",
+      "userId": "user_102",
+      "date": "2025-04-26",
+      "startShift": "09:00",
+      "endShift": "17:00"
+    },
+    {
+      "id": "shift_3",
+      "userId": "user_103",
+      "date": "2025-04-27",
+      "startShift": "07:30",
+      "endShift": "15:30"
+    },
+    {
+      "id": "shift_4",
+      "userId": "user_104",
+      "date": "2025-04-28",
+      "startShift": "12:00",
+      "endShift": "20:00"
+    },
+    {
+      "id": "shift_5",
+      "userId": "user_105",
+      "date": "2025-04-29",
+      "startShift": "10:00",
+      "endShift": "18:00"
+    }
+  ]
+  

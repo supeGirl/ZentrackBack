@@ -1,18 +1,18 @@
 [
     {
-        "id": "user_101",
+        "_id": "user_101",
         "username": "keren23",
         "name": "Keren vasserman",
         "isAdmin": true
     },
     {
-        "id": "user_102",
+        "_id": "user_102",
         "username": "david88",
         "name": "David Cohen",
         "isAdmin":false
     },
     {
-        "id": "user_103",
+        "_id": "user_103",
         "username": "sara19",
         "name": "Sara Mizrahi",
         "isAdmin":false

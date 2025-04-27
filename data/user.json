@@ -1,20 +1,35 @@
 [
     {
+        "_id": "qtZWkV",
+        "username": "testingi",
+        "password": "$2b$10$5.VNyw1v4HyWjQHY0rIYl.IpY4c1RLj5dur1VqNvy5HIzfiQ1KpOW",
+        "fullname": "testing resty",
+        "isAdmin": false
+    },
+    {
+        "_id": "ltQYDV",
+        "username": "testing",
+        "password": "$2b$10$XeZlQR8FhkUIBtzTdmDpFONca27xKQI/B24boPUTpL/veAuTyopwa",
+        "fullname": "testing test",
+        "isAdmin": false
+    },
+    {
         "_id": "user_101",
         "username": "keren23",
-        "name": "Keren vasserman",
-        "isAdmin": true
+        "fullname": "Keren vasserman",
+        "isAdmin": true,
+        "password": 123456
     },
     {
         "_id": "user_102",
         "username": "david88",
-        "name": "David Cohen",
-        "isAdmin":false
+        "fullname": "David Cohen",
+        "isAdmin": false
     },
     {
         "_id": "user_103",
         "username": "sara19",
-        "name": "Sara Mizrahi",
-        "isAdmin":false
+        "fullname": "Sara Mizrahi",
+        "isAdmin": false
     }
 ]

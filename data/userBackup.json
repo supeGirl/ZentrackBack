@@ -2,19 +2,19 @@
     {
         "_id": "user_101",
         "username": "keren23",
-        "name": "Keren vasserman",
+        "fullname": "Keren vasserman",
         "isAdmin": true
     },
     {
         "_id": "user_102",
         "username": "david88",
-        "name": "David Cohen",
+        "fullname": "David Cohen",
         "isAdmin":false
     },
     {
         "_id": "user_103",
         "username": "sara19",
-        "name": "Sara Mizrahi",
+        "fullname": "Sara Mizrahi",
         "isAdmin":false
     }
 ]

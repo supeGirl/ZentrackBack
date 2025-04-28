@@ -1,37 +1,65 @@
 [
     {
         "_id": "shift_1",
-        "userId": "user_101",
-        "date": "2025-04-25",
+        "userId": "cC0kfn",
+        "date": "2025-04-28",
         "startShift": "08:00",
         "endShift": "16:00"
     },
     {
         "_id": "shift_2",
-        "userId": "user_102",
-        "date": "2025-04-26",
+        "userId": "user_101",
+        "date": "2025-04-28",
         "startShift": "09:00",
         "endShift": "17:00"
     },
     {
         "_id": "shift_3",
-        "userId": "user_103",
-        "date": "2025-04-27",
-        "startShift": "07:30",
-        "endShift": "15:30"
+        "userId": "user_102",
+        "date": "2025-04-28",
+        "startShift": "10:00",
+        "endShift": "18:00"
     },
     {
         "_id": "shift_4",
-        "userId": "user_104",
-        "date": "2025-04-28",
+        "userId": "cC0kfn",
+        "date": "2025-05-01",
+        "startShift": "07:00",
+        "endShift": "15:00"
+    },
+    {
+        "_id": "shift_5",
+        "userId": "user_101",
+        "date": "2025-05-01",
+        "startShift": "08:30",
+        "endShift": "16:30"
+    },
+    {
+        "_id": "shift_6",
+        "userId": "user_102",
+        "date": "2025-05-01",
+        "startShift": "09:00",
+        "endShift": "17:00"
+    },
+    {
+        "_id": "shift_7",
+        "userId": "cC0kfn",
+        "date": "2025-05-05",
         "startShift": "12:00",
         "endShift": "20:00"
     },
     {
-        "_id": "shift_5",
-        "userId": "user_105",
-        "date": "2025-04-29",
-        "startShift": "10:00",
-        "endShift": "18:00"
+        "_id": "shift_8",
+        "userId": "user_101",
+        "date": "2025-05-05",
+        "startShift": "13:00",
+        "endShift": "21:00"
+    },
+    {
+        "_id": "shift_9",
+        "userId": "user_102",
+        "date": "2025-05-05",
+        "startShift": "14:00",
+        "endShift": "22:00"
     }
 ]

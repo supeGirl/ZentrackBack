@@ -2,6 +2,7 @@ import {shiftService} from './shift.service.js'
 import {loggerService} from '../../services/logger.service.js'
 
 export async function getShifts(req, res) {
+    
   try {
     // const filterBy = {
     //   txt: txt || '',
@@ -18,7 +19,6 @@ export async function getShifts(req, res) {
 export async function getShiftById(req, res) {
   try {
     const {id: shiftId} = req.params
-    console.log(shiftId);
     
     const shift = await shiftService.getById(shiftId)
     res.send(shift)

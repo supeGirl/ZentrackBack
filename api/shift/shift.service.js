@@ -22,7 +22,6 @@ function query() {
 }
 
 function getById(shiftId) {
-    console.log('shifts', shifts)
     
   try {
     const shift = shifts.find((shift) => shift._id === shiftId)

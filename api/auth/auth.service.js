@@ -14,13 +14,16 @@ const cryptr = new Cryptr(process.env.SECRET1 || 'Secret-Puk-1234')
 
 async function login(username, password) {
   loggerService.debug(`auth.service - login with username: ${username}`)
-
+  let match;
   const user = await userService.getByUsername(username)
   if (!user) throw new Error('Invalid username or password')
+  try {
 
-  const match = await bcrypt.compare(password, user.password)
+    match = await bcrypt.compare(password, user.password);
+
+  } catch(err) {
+  }
   if (!match) throw new Error('Invalid username or password')
-
   delete user.password
   return user
 }
@@ -52,7 +55,6 @@ function validateToken(loginToken) {
     const loggedinUser = JSON.parse(json)
     return loggedinUser
   } catch (err) {
-    console.log('Invalid login token')
   }
   return null
 }

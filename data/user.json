@@ -8,16 +8,16 @@
     },
     {
         "_id": "user_101",
-        "username": "testingi",
+        "username": "edavis",
         "password": "$2b$10$5.VNyw1v4HyWjQHY0rIYl.IpY4c1RLj5dur1VqNvy5HIzfiQ1KpOW",
-        "fullname": "testing resty",
+        "fullname": "Emily Davis",
         "isAdmin": false
     },
     {
         "_id": "user_102",
-        "username": "testing",
+        "username": "jsmith",
         "password": "$2b$10$XeZlQR8FhkUIBtzTdmDpFONca27xKQI/B24boPUTpL/veAuTyopwa",
-        "fullname": "testing test",
+        "fullname": "John Smith",
         "isAdmin": false
     }
 ]

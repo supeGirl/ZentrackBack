@@ -2,22 +2,24 @@
     {
         "_id": "cC0kfn",
         "username": "KKV2",
-        "password": "$2b$10$F94FRRULy58JxBAMquS4y.MfG6JuYL0dwSsoC8hWZifZB7AfiXNmG",
         "fullname": "Keren vasserman",
-        "isAdmin": true
+        "isAdmin": true,
+        "imgUrl": "https://res.cloudinary.com/dhvqdafl9/image/upload/v1746658793/ivy7qegzaxjctfz8km8v.png"
     },
     {
         "_id": "user_101",
         "username": "edavis",
         "password": "$2b$10$5.VNyw1v4HyWjQHY0rIYl.IpY4c1RLj5dur1VqNvy5HIzfiQ1KpOW",
         "fullname": "Emily Davis",
-        "isAdmin": false
+        "isAdmin": false,
+        "imgUrl": "https://res.cloudinary.com/dhvqdafl9/image/upload/v1746658793/ivy7qegzaxjctfz8km8v.png"
     },
     {
         "_id": "user_102",
         "username": "jsmith",
         "password": "$2b$10$XeZlQR8FhkUIBtzTdmDpFONca27xKQI/B24boPUTpL/veAuTyopwa",
         "fullname": "John Smith",
-        "isAdmin": false
+        "isAdmin": false,
+        "imgUrl": "https://res.cloudinary.com/dhvqdafl9/image/upload/v1746657970/ns9g9h9qdjaffc8d2wcw.webp"
     }
 ]

@@ -26,8 +26,6 @@ async function fetchWithRetries(url, retries, field) {
   if (retries === 0) throw new Error('Retries exhausted')
 
   try {
-    console.log('try to fetch')
-
     const controller = new AbortController()
     const timeout = setTimeout(() => controller.abort(), 20000)
 

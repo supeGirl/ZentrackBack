@@ -1,0 +1,11 @@
+{
+    "watch": ["server.js", "api", "services", "middlewares"],
+    "ext": "js,json",
+    "ignore": ["data", "public", "logs", "*.log", "*.txt"],
+    "exec": "node server.js",
+    "env": {
+      "NODE_ENV": "development"
+    },
+     "delay": "300"
+  }
+  

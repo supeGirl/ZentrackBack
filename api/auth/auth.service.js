@@ -22,6 +22,7 @@ async function login(username, password) {
     match = await bcrypt.compare(password, user.password);
 
   } catch(err) {
+    console.error('error bcrypt', err)
   }
   if (!match) throw new Error('Invalid username or password')
   delete user.password
@@ -45,7 +46,7 @@ function getLoginToken(user) {
     _id: user._id,
     fullname: user.fullname,
     isAdmin: user.isAdmin,
-  }
+  }  
   return cryptr.encrypt(JSON.stringify(userInfo))
 }
 

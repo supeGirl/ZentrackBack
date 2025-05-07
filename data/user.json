@@ -1,10 +1,12 @@
 [
     {
         "_id": "cC0kfn",
-        "username": "KKV2",
+        "username": "KV1",
+        "password": "$2b$10$iPeuO7PGsamJ9GY8Yw4SkeTrmwVTFvVHUy/kwY44QA8TQNpNiR2Yq",
         "fullname": "Keren vasserman",
         "isAdmin": true,
         "imgUrl": "https://res.cloudinary.com/dhvqdafl9/image/upload/v1746658793/ivy7qegzaxjctfz8km8v.png"
+
     },
     {
         "_id": "user_101",

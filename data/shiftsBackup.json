@@ -1,66 +1,172 @@
 [
-    {
-      "_id": "shift_1",
-      "userId": "cC0kfn",
-      "date": "2025-04-28",
-      "startShift": "08:00",
-      "endShift": "16:00"
-    },
-    {
-      "_id": "shift_2",
-      "userId": "user_101",
-      "date": "2025-04-28",
-      "startShift": "09:00",
-      "endShift": "17:00"
-    },
-    {
-      "_id": "shift_3",
-      "userId": "user_102",
-      "date": "2025-04-28",
-      "startShift": "10:00",
-      "endShift": "18:00"
-    },
-    {
-      "_id": "shift_4",
-      "userId": "cC0kfn",
-      "date": "2025-05-01",
-      "startShift": "07:00",
-      "endShift": "15:00"
-    },
-    {
-      "_id": "shift_5",
-      "userId": "user_101",
-      "date": "2025-05-01",
-      "startShift": "08:30",
-      "endShift": "16:30"
-    },
-    {
-      "_id": "shift_6",
-      "userId": "user_102",
-      "date": "2025-05-01",
-      "startShift": "09:00",
-      "endShift": "17:00"
-    },
-    {
-      "_id": "shift_7",
-      "userId": "cC0kfn",
-      "date": "2025-05-05",
-      "startShift": "12:00",
-      "endShift": "20:00"
-    },
-    {
-      "_id": "shift_8",
-      "userId": "user_101",
-      "date": "2025-05-05",
-      "startShift": "13:00",
-      "endShift": "21:00"
-    },
-    {
-      "_id": "shift_9",
-      "userId": "user_102",
-      "date": "2025-05-05",
-      "startShift": "14:00",
-      "endShift": "22:00"
+  {
+    "_id": "68xRDc",
+    "userId": "user_102",
+    "startTime": "2025-05-07T09:48:00.000Z",
+    "endTime": "2025-05-07T09:49:00.000Z",
+    "owner": {
+      "_id": "user_102",
+      "username": "jsmith",
+      "fullname": "John Smith",
+      "isAdmin": false
     }
-  ]
-  
+  },
+  {
+    "_id": "b3bEaP",
+    "userId": "user_102",
+    "startTime": "2025-05-06T09:46:34.000Z",
+    "endTime": "2025-05-06T09:47:22.000Z",
+    "owner": {
+      "_id": "user_102",
+      "username": "jsmith",
+      "fullname": "John Smith",
+      "isAdmin": false
+    }
+  },
+  {
+    "_id": "htkdTs",
+    "userId": "cC0kfn",
+    "startTime": "2025-05-06T09:00:00.000Z",
+    "endTime": "2025-05-06T12:00:00.000Z",
+    "owner": {
+      "_id": "cC0kfn",
+      "username": "kvasserman",
+      "fullname": "Keren Vasserman",
+      "isAdmin": true
+    }
+  },
+  {
+    "_id": "8RFuKU",
+    "userId": "cC0kfn",
+    "startTime": "2025-05-06T18:00:00.000Z",
+    "endTime": "2025-05-06T19:00:00.000Z",
+    "owner": {
+      "_id": "cC0kfn",
+      "username": "kvasserman",
+      "fullname": "Keren Vasserman",
+      "isAdmin": true
+    }
+  },
+  {
+    "_id": "JuZksq",
+    "userId": "cC0kfn",
+    "startTime": "2025-05-05T16:13:35.000Z",
+    "endTime": "2025-05-05T16:13:49.000Z",
+    "owner": {
+      "_id": "cC0kfn",
+      "username": "kvasserman",
+      "fullname": "Keren Vasserman",
+      "isAdmin": true
+    }
+  },
+  {
+    "_id": "ErvOif",
+    "userId": "cC0kfn",
+    "startTime": "2025-05-05T15:46:12.000Z",
+    "endTime": "2025-05-05T15:46:22.000Z",
+    "owner": {
+      "_id": "cC0kfn",
+      "username": "kvasserman",
+      "fullname": "Keren Vasserman",
+      "isAdmin": true
+    }
+  },
+  {
+    "_id": "shift_1",
+    "userId": "cC0kfn",
+    "startTime": "2025-04-28T08:00:00.000Z",
+    "endTime": "2025-04-28T16:00:00.000Z",
+    "owner": {
+      "_id": "cC0kfn",
+      "username": "kvasserman",
+      "fullname": "Keren Vasserman",
+      "isAdmin": true
+    }
+  },
+  {
+    "_id": "shift_2",
+    "userId": "user_101",
+    "startTime": "2025-04-28T09:00:00.000Z",
+    "endTime": "2025-04-28T17:00:00.000Z",
+    "owner": {
+      "_id": "user_101",
+      "fullname": "Emily Davis"
+    },
+    "startShift": "11:00",
+    "endShift": "21:00"
+  },
+  {
+    "_id": "shift_3",
+    "userId": "user_102",
+    "startTime": "2025-04-28T10:00:00.000Z",
+    "endTime": "2025-04-28T18:00:00.000Z",
+    "owner": {
+      "_id": "user_102",
+      "fullname": "John Smith"
+    }
+  },
+  {
+    "_id": "shift_4",
+    "userId": "cC0kfn",
+    "startTime": "2025-05-01T07:00:00.000Z",
+    "endTime": "2025-05-01T15:00:00.000Z",
+    "owner": {
+      "_id": "cC0kfn",
+      "username": "kvasserman",
+      "fullname": "Keren Vasserman",
+      "isAdmin": true
+    }
+  },
+  {
+    "_id": "shift_5",
+    "userId": "user_101",
+    "startTime": "2025-05-01T08:30:00.000Z",
+    "endTime": "2025-05-01T16:30:00.000Z",
+    "owner": {
+      "_id": "user_101",
+      "fullname": "Emily Davis"
+    }
+  },
+  {
+    "_id": "shift_6",
+    "userId": "user_102",
+    "startTime": "2025-05-01T09:00:00.000Z",
+    "endTime": "2025-05-01T17:00:00.000Z",
+    "owner": {
+      "_id": "user_102",
+      "fullname": "John Smith"
+    }
+  },
+  {
+    "_id": "shift_7",
+    "userId": "cC0kfn",
+    "startTime": "2025-05-05T12:00:00.000Z",
+    "endTime": "2025-05-05T20:00:00.000Z",
+    "owner": {
+      "_id": "cC0kfn",
+      "username": "kvasserman",
+      "fullname": "Keren Vasserman",
+      "isAdmin": true
+    }
+  },
+  {
+    "_id": "shift_8",
+    "userId": "user_101",
+    "startTime": "2025-05-05T13:00:00.000Z",
+    "endTime": "2025-05-05T21:00:00.000Z",
+    "owner": {
+      "_id": "user_101",
+      "fullname": "Emily Davis"
+    }
+  },
+  {
+    "_id": "shift_9",
+    "userId": "user_102",
+    "startTime": "2025-05-05T14:00:00.000Z",
+    "endTime": "2025-05-05T22:00:00.000Z",
+    "owner": {
+      "_id": "user_102",
+      "fullname": "John Smith"
+    }
+  }
+]
